@@ -4,6 +4,8 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Installation
 
+Crear un fichero **.env** como copia de **.env.example** y rellenar con los datos
+
 ```
 $ npm i
 ```
@@ -16,8 +18,10 @@ $ npm start
 
 ### Deployment
 
+En el branch main
+
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true CURRENT_BRANCH=main npm run deploy
+$ npm run deploy
 ```
 
 
