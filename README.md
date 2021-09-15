@@ -17,7 +17,7 @@ $ npm start
 ### Deployment
 
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true npm run deploy
+$ GIT_USER=<Your GitHub username> USE_SSH=true CURRENT_BRANCH=main npm run deploy
 ```
 
 
